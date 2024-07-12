@@ -19,7 +19,7 @@ def webapp_builder() -> InlineKeyboardBuilder:
     builder = InlineKeyboardBuilder()
     builder.button(
         text='Кликер',
-        web_app=WebAppInfo(url='')
+        web_app=WebAppInfo(url='https://da73-178-205-245-141.ngrok-free.app')
     )
 
     return builder.as_markup()
